@@ -1,5 +1,4 @@
-﻿using App.Data.Infrastructure;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace App.Data.Entities;
@@ -12,7 +11,6 @@ public class UserEntity : EntityBase, IHasEnabled
     public string Password { get; set; } = null!;
     public int RoleId { get; set; }
     public bool Enabled { get; set; } = true;
-    public bool HasSellerRequest { get; set; } = false;
 
     // Navigation properties
     public RoleEntity Role { get; set; } = null!;
@@ -36,19 +34,5 @@ internal class UserEntityConfiguration : IEntityTypeConfiguration<UserEntity>
             .WithMany()
             .HasForeignKey(d => d.RoleId)
             .OnDelete(DeleteBehavior.NoAction);
-
-        new UserEntitySeed().SeedData(builder);
-    }
-}
-
-internal class UserEntitySeed : IEntityTypeSeed<UserEntity>
-{
-    public void SeedData(EntityTypeBuilder<UserEntity> builder)
-    {
-        builder.HasData(
-            new UserEntity() { Id = 1, FirstName = "admin", LastName = "admin", Email = "admin@siliconmade.com", Enabled = true, RoleId = 1, Password = "1234", CreatedAt = DateTime.UtcNow },
-            new UserEntity() { Id = 2, FirstName = "seller", LastName = "seller", Email = "seller@siliconmade.com", Enabled = true, RoleId = 2, Password = "1234", CreatedAt = DateTime.UtcNow },
-            new UserEntity() { Id = 3, FirstName = "buyer", LastName = "buyer", Email = "buyer@siliconmade.com", Enabled = true, RoleId = 3, Password = "1234", CreatedAt = DateTime.UtcNow }
-        );
     }
 }

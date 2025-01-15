@@ -1,20 +1,17 @@
-﻿using App.Data.Infrastructure;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace App.Admin.Controllers
 {
-    [Route("/comment")]
-    public class CommentController(ApplicationDbContext dbContext) : Controller
+    public class CommentController : Controller
     {
-        [Route("")]
+        [Route("/comment")]
         [HttpGet]
         public IActionResult List()
         {
-
             return View();
         }
 
-        [Route("{commentId:int}/approve")]
+        [Route("/comment/{commentId:int}/approve")]
         [HttpGet]
         public IActionResult Approve([FromRoute] int commentId)
         {

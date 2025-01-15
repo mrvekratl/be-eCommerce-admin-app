@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace App.Data.Entities;
-
 public class OrderItemEntity : EntityBase
 {
     public int OrderId { get; set; }
@@ -12,7 +11,6 @@ public class OrderItemEntity : EntityBase
 
     // Navigation properties
     public OrderEntity Order { get; set; } = null!;
-
     public ProductEntity Product { get; set; } = null!;
 }
 
@@ -27,10 +25,8 @@ internal class OrderItemEntityConfiguration : IEntityTypeConfiguration<OrderItem
         builder.Property(e => e.UnitPrice).IsRequired().HasColumnType("decimal(18,2)");
         builder.Property(e => e.CreatedAt).IsRequired();
 
-        builder.HasIndex(e => new { e.OrderId, e.ProductId }).IsUnique(); // Each product can be added only once to an order
-
         builder.HasOne(d => d.Order)
-            .WithMany(o => o.OrderItems)
+            .WithMany()
             .HasForeignKey(d => d.OrderId)
             .OnDelete(DeleteBehavior.NoAction);
 

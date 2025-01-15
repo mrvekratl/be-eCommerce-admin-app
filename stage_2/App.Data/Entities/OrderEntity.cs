@@ -11,8 +11,6 @@ public class OrderEntity : EntityBase
 
     // Navigation properties
     public UserEntity User { get; set; } = null!;
-
-    public ICollection<OrderItemEntity> OrderItems { get; set; } = [];
 }
 
 internal class OrderEntityConfiguration : IEntityTypeConfiguration<OrderEntity>
@@ -24,8 +22,6 @@ internal class OrderEntityConfiguration : IEntityTypeConfiguration<OrderEntity>
         builder.Property(e => e.OrderCode).IsRequired().HasMaxLength(250);
         builder.Property(e => e.Address).IsRequired().HasMaxLength(250);
         builder.Property(e => e.CreatedAt).IsRequired();
-
-        builder.HasIndex(e => e.OrderCode).IsUnique();
 
         builder.HasOne(d => d.User)
             .WithMany()

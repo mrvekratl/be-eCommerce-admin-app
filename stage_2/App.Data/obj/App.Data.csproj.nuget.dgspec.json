@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\Downloads\\Gorev-13-Cozum (3)\\App\\App.Data\\App.Data.csproj": {}
+    "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_2\\App.Data\\App.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\Downloads\\Gorev-13-Cozum (3)\\App\\App.Data\\App.Data.csproj": {
+    "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_2\\App.Data\\App.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Downloads\\Gorev-13-Cozum (3)\\App\\App.Data\\App.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_2\\App.Data\\App.Data.csproj",
         "projectName": "App.Data",
-        "projectPath": "C:\\Users\\Monster\\Downloads\\Gorev-13-Cozum (3)\\App\\App.Data\\App.Data.csproj",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_2\\App.Data\\App.Data.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Downloads\\Gorev-13-Cozum (3)\\App\\App.Data\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_2\\App.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",

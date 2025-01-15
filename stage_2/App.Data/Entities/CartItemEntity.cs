@@ -11,7 +11,6 @@ public class CartItemEntity : EntityBase
 
     // Navigation properties
     public UserEntity User { get; set; } = null!;
-
     public ProductEntity Product { get; set; } = null!;
 }
 

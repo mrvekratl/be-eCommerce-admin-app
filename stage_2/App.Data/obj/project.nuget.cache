@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kDxqNCygbBw=",
+  "dgSpecHash": "tbCtPLg+M4g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Downloads\\Gorev-13-Cozum (3)\\App\\App.Data\\App.Data.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_2\\App.Data\\App.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
