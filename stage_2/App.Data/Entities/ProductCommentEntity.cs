@@ -13,6 +13,7 @@ public class ProductCommentEntity : EntityBase
 
     // Navigation properties
     public ProductEntity Product { get; set; } = null!;
+
     public UserEntity User { get; set; } = null!;
 }
 
@@ -29,7 +30,7 @@ internal class ProductCommentEntityConfiguration : IEntityTypeConfiguration<Prod
         builder.Property(e => e.CreatedAt).IsRequired();
 
         builder.HasOne(d => d.Product)
-            .WithMany()
+            .WithMany(e => e.Comments)
             .HasForeignKey(d => d.ProductId)
             .OnDelete(DeleteBehavior.NoAction);
 
