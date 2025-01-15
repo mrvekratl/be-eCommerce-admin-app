@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QBqX6FyrTjk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_5\\App.Models.DTO\\App.Models.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Monster\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
+  "logs": []
+}

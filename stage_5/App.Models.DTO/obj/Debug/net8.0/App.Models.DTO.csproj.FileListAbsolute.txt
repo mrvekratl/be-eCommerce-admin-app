@@ -1,0 +1,13 @@
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\bin\Debug\net8.0\App.Models.DTO.deps.json
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\bin\Debug\net8.0\App.Models.DTO.dll
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\bin\Debug\net8.0\App.Models.DTO.pdb
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.csproj.AssemblyReference.cache
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.AssemblyInfoInputs.cache
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.AssemblyInfo.cs
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.sourcelink.json
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.dll
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\refint\App.Models.DTO.dll
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\App.Models.DTO.pdb
+C:\Users\Monster\Desktop\Github\be-eCommerce-admin-app\be-eCommerce-admin-app\stage_5\App.Models.DTO\obj\Debug\net8.0\ref\App.Models.DTO.dll

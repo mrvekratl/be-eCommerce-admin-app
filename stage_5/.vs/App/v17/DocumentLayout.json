@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code\\Siliconmade Academy\\SMAcademy\\fast-gorev-e-ticaret\\src\\App\\",
+  "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_5\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -13,29 +13,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1191,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             }
           ]
         }

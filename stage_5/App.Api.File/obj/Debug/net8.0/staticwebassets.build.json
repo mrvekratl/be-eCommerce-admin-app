@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "YUDswMicV6ULG/88XwgGWPa5D3nb/vPW5qYegm3MVgw=",
+  "Source": "App.Api.File",
+  "BasePath": "_content/App.Api.File",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "App.Api.File\\wwwroot",
+      "Source": "App.Api.File",
+      "ContentRoot": "C:\\Users\\Monster\\Desktop\\Github\\be-eCommerce-admin-app\\be-eCommerce-admin-app\\stage_5\\App.Api.File\\wwwroot\\",
+      "BasePath": "_content/App.Api.File",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

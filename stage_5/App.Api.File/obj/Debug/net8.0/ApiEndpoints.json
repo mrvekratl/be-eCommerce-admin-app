@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "App.Api.File.Controllers.FileController",
+    "Method": "Upload",
+    "RelativePath": "api/v1/File",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App.Api.File.Controllers.FileController",
+    "Method": "Download",
+    "RelativePath": "api/v1/File",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App.Api.File.Controllers.FileController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/File",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
